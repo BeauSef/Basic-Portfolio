@@ -1,0 +1,53 @@
+/* These apply to all pages*/
+header {
+    font-family: Georgia, Times, serif;
+    font-size: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #C0BDBD ;
+    content: 960px;
+}
+
+.topnav {
+    float: right;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.topnav a:hover {
+    background-color: aliceblue;
+    color: blue
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style inputs */
+
+.name {
+    width: 75%;
+    padding: 50px;
+    border: 3px solid #red;
+    margin-top: 5%;
+    float: right;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
