@@ -1,53 +1,140 @@
-/* These apply to all pages*/
-header {
-    font-family: Georgia, Times, serif;
-    font-size: 30px;
-    padding: 40px;
-    text-align: center;
+/*These apply to all pages*/
+
+* {
+    
+    box-sizing: border-box;
+    padding: 1%;
+    margin: -1%;
 }
 
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: #C0BDBD ;
-    content: 960px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("gravel.png");
+  }
+
+
+header{
+  color: #4aaaa5;
+  background-color: #ffffff;
+  border: #cccccc;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  width: 100%;
 }
 
-.topnav {
+h1 {
+  color: #ffffff;
+  background-color: #4aaaa5;
+  text-align: center;
+  margin-top: 4%;
+  width: 20%;
+  position: relative;
+  padding: 0%
+}
+
+nav {
     float: right;
-    margin-top: 5px;
-    text-decoration: underline;
+    
+    text-align: right;
+    padding: 0px;
+    background-color: #ffffff;
+    color: #777777;
+    margin: -10px;
 }
 
-.topnav a:hover {
-    background-color: aliceblue;
-    color: blue
+nav a:hover {
+  background-color: #ffffff;
+  color: #4aaaa5;
+}
+
+.container {
+    width: 0%;
+}
+
+#main-bio{
+    background-color: #ffffff;
+    border: #dddddd;
+    width: 960px;
+    height: 400px; 
+    margin: 50px;
+  }
+  
+h2 {
+  margin-top: 4%;
+  padding: 10px;
+}
+
+footer {
+    background-color: #666666;
+    color: #cccccc;
+    width: 100%; 
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 58px;
+    padding: 28px;
+    border-top: 8px solid #4aaaa5;
+    overflow: hidden;
 }
 
 
-* {
-    box-sizing: border-box;
+/*This styling is for about me page*/
+
+p {
+  text-align: center;
+  padding: 20px;
+  word-wrap: break-word;
+  font-size: 20px;
 }
 
-/* Style inputs */
+.image {
+    padding: 10px;
+    position: fixed;
+}
 
-.name {
-    width: 75%;
-    padding: 50px;
-    border: 3px solid #red;
-    margin-top: 5%;
-    float: right;
+/*This styling is for contact info*/
+
+.contact-box {
+position: relative;
+height: 500px;
+width: 960px;
+background-color: #ffffff;
+color: #777777;
+text-align: center;
+padding: 10px;
+margin: 60px;
 }
 
 
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 2px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
+/*This styling is for Portfolio*/
+
+.boxset {
+position: relative;
+height: 500px;
+width: 960px;
+background-color: #ffffff;
+color: #777777;
+text-align: center;
+padding: 10px;
+margin: 60px;
 }
 
+.box{
+    width: 125px;
+    height: 110px;
+    padding: 0%;
+    margin-top: 20px;
+    background:#4aaaa5;
+    border: 2px solid black;
+    position: relative;
+}
+.box4,.box5 {
+box-align: center;
+padding: 0%;
+margin-top: 20px; 
+position: relative
+}
 
-
-
-
+h2 {
+    text-align: left;
+}
